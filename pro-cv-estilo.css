@@ -1,0 +1,189 @@
+h1 {
+	color:#000;
+	font-family: 'Cinzel', serif;
+	font-size: 48px;
+	text-align: center;
+	text-indent: 24px;
+	text-transform: uppercase;
+	margin: auto;
+}
+
+h2 {
+    color:#000;
+	font-family: 'Cormorant Garamond';
+	border-bottom: 3px solid #e66c7e;
+	font-size: 20px;
+	font-weight: 200;
+	line-height: 50px;
+	letter-spacing: 25px;
+	margin-bottom: 25px;
+	text-align: left;
+    text-indent: 24px;
+    text-transform: uppercase;
+}
+
+h3 {
+	color:#000;
+	font-family: 'Cormorant Garamond';
+	font-size: 20px;
+	text-align: center;
+	text-indent: 24px;
+	text-transform: uppercase;
+}
+
+p {
+	color: #000;
+    font-family: 'Cinzel', serif;
+    font-style: italic;
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 700;
+	max-width: 640px;
+	margin: 0 auto 38px;
+	text-align: center;
+}
+
+a {
+	color: #e66c7e;	
+	border-bottom: 2px solid #e66c7e;
+	font-family: 'Cormorant Garamond';
+	font-size: 11px;
+	font-weight: 700;
+	letter-spacing: 3px;
+	text-decoration: none;
+	text-transform: uppercase;
+	
+}
+
+a:hover {
+	color: blueviolet;
+	border-bottom: 2px solid yellow;
+	transform: scale(1.2);
+}
+
+body{
+ background-color: white;
+ width: 100%;  
+}
+
+ul li{
+    color: #000;
+    list-style-type:none
+}
+
+.port li{
+	display: inline-block;	
+}
+
+.port li img{
+	width: 100px;
+}
+
+.contenido{
+    width: 60%;
+	float: left;
+}
+
+.perfil{
+    float: left;
+	width: 30%;
+	clear: both; 
+	margin-top: 150px;
+}
+
+
+.foto {
+    margin: 0 auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.foto img{
+	width: 100%;
+	height:100%; 
+}
+
+li.ruim {color:#c40018;}
+li.bom {color:#0e9577;}
+li.otimo {color:#011f3f;}
+li.idioma{color:#203541;}
+
+label:after {
+	content: ":";
+}
+
+.contenedor{
+	margin: 0 auto;
+	width: 1024px;
+}
+
+.st-menu{
+	padding: 0;
+    text-align: center;
+}
+
+.tabla li{
+	width: 25%;
+    display: inline-block;
+	box-sizing: border-box;
+	text-align: center;
+	
+}
+
+.tabla{
+	list-style: none;
+	padding: 0;
+	display: flex;
+}
+
+.st-menu li{
+	margin-bottom: 15px;
+}
+
+.contenido-lista li{
+	margin-bottom: 13px;
+	color:#000;
+	font-family: 'Cormorant Garamond';
+	font-size: 20px;	
+}
+ul.contenido-lista{
+    margin-bottom: 50px;
+	padding: 0;
+}
+
+.idioma{
+	padding-bottom: 1px; 
+}
+
+.foto:hover{
+	transform: scale(1.2); 
+	transition: all 1s ease;
+}
+
+ul.port li:hover{
+    bottom:30px;
+	right: 30px;
+	transform: scale(1.2);
+	transition: all 1s ease;
+}
+
+ul.port li{
+	padding-right:20px;
+}
+
+ul.port{
+	padding-left: 70px
+}
+
+.color{
+	background-color: #fbe4c9;
+	font-weight: bold;
+	
+}
+
+.color .tabla{
+	padding-top: 10px;
+    padding-bottom: 10px;
+}
